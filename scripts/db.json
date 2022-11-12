@@ -1,0 +1,40 @@
+{
+  "toDoList": [
+    {
+      "id": "15940142-3dba-4982-9f50-9eedad90fa1e",
+      "sequence": 1,
+      "message": "string",
+      "status": "DELETED"
+    },
+    {
+      "id": "15940142-3dba-4982-9f50-9eedad90fa1a",
+      "message": "aasd",
+      "sequence": 2,
+      "status": "DELETED"
+    },
+    {
+      "id": "dde931b7-0e6f-4b54-b681-0cfdaca8f880",
+      "message": "123123123",
+      "sequence": 5,
+      "status": "DELETED"
+    },
+    {
+      "id": "4e0223b6-e9f7-4b3a-9ce8-5971a9b4dd10",
+      "message": "asd",
+      "sequence": 6,
+      "status": "DELETED"
+    },
+    {
+      "id": "d7551e68-9853-45a1-9590-47a8516dd7d5",
+      "message": "asd",
+      "sequence": 1,
+      "status": "DELETED"
+    },
+    {
+      "id": "61cea3ec-63cf-49bb-a3ea-2ee7bf2f7cfa",
+      "message": "asd",
+      "sequence": 1,
+      "status": "UNCHECKED"
+    }
+  ]
+}
