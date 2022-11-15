@@ -6,16 +6,19 @@
               <el-row :gutter="20">
                 <el-col :span="20">
                   <el-input
+                    id="todo-input"
                     v-model="formData.message"
                     class="task-new__input"
                     type="text"
                     placeholder="New task"
                     autofocus
                     @keyup.enter="insertTodo()"
+                    ref="todo-input"
                   />
                 </el-col>
                 <el-col :span="4">
                   <el-button  
+                    id="add-button"
                     type="primary" 
                     @click="insertTodo()" 
                   >

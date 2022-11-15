@@ -4,3 +4,5 @@ export const Status = {
   ADDED: "ADDED",
   DELETED: "DELETED",
 };
+
+export const ToDoApiUrl = "http://localhost:3001/toDoList"

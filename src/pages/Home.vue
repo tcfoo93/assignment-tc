@@ -1,5 +1,5 @@
 <template>
-  <el-main>
+  <el-main id="todo-main">
     <ToDoPanel />
   </el-main>
 </template>

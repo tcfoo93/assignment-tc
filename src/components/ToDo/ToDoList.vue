@@ -4,6 +4,7 @@
             <el-row :gutter="20" class="todo-data-row">
                 <el-col :span="1">
                     <el-checkbox 
+                    id='todo-checkbox'
                     :checked="(item.status === Status.CHECKED)" 
                     @change="(value) => {
                         updateTodo(item.id, (value) 
@@ -19,8 +20,8 @@
                     </span>
                 </el-col>
                 <el-col :span="2">
-                    <div @click="updateTodo(item.id, Status.DELETED)">
-                    <i class="el-icon-close delete-icon"/>
+                    <div id='delete-icon' @click="updateTodo(item.id, Status.DELETED)">
+                        <em class="el-icon-close delete-icon"/>
                     </div>
                 </el-col>
             </el-row>
